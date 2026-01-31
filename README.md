@@ -1,33 +1,64 @@
 # Pharmacy AI Solution
 
-## Project Overview
-This project aims to provide an efficient pharmacy management solution using AI techniques. The solution helps in inventory management, prescription processing, and patient interaction, ensuring better service and efficiency in pharmaceutical operations.
+## Project Description
+
+Pharmacy AI Solution is an application designed specifically for pharmacy students to enhance their studies. It provides a range of functionalities, including:
+
+- Notes and reference books
+- AI-powered question answering related to pharmacy
+- Drug interaction insights
+- Study materials and resources
+- Practice exams
+- Generative video concepts to aid learning
 
 ## Setup Instructions
-1. **Clone the Repository:**
+
+To set up the project locally, follow these steps:
+
+1. **Clone the Repository**
    ```bash
-   git clone https://github.com/Devil-core07/pharmacy-ai-solution.git
-   cd pharmacy-ai-solution
+   git clone https://github.com/Devil-core07/Pharmacy-AI-Solution.git
+   cd Pharmacy-AI-Solution
    ```
 
-2. **Install Dependencies:**
-   Make sure to have Python installed, then run:
+2. **Install Dependencies**
+   For Python-based projects, typically:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Environment Setup:**
-   Create a `.env` file in the root directory and add the necessary environment variables:
-   ```
-   DATABASE_URL=<your_database_url>
-   SECRET_KEY=<your_secret_key>
-   ```
-
-4. **Run the Application:**
-   Start the application with:
+3. **Run the Application**
+   Depending on the framework used, it may vary. A common command for Flask:
    ```bash
-   python app.py
+   flask run
    ```
 
-5. **Accessing the Application:**
-   Open your web browser and go to `http://localhost:5000` to access the application.
+4. **Access the App**
+   Open a web browser and go to `http://127.0.0.1:5000`.
+
+## Features
+
+- Comprehensive database of pharmacy-related study materials
+- Interactive AI features for quick answers
+- User-friendly interface for easy navigation
+- Customizable study schedules and reminders
+- Collaboration tools for group studies
+
+## Tech Stack
+
+- **Frontend:** React.js
+- **Backend:** Flask / Django (or specify the technology used)
+- **Database:** PostgreSQL / MongoDB (or specify the technology used)
+- **Hosting:** AWS / Heroku / DigitalOcean (or specify the technology used)
+
+## Project Structure
+
+```
+Pharmacy-AI-Solution/
+│
+├── frontend/              # Frontend source code
+├── backend/               # Backend source code
+├── requirements.txt       # Backend dependencies
+├── README.md              # Project documentation
+└── .gitignore             # Ignored files
+```
