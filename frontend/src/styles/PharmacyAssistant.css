@@ -1,0 +1,12 @@
+.pharmacy-assistant { width: 100%; }
+.pharmacy-assistant h2 { color: #667eea; margin-bottom: 20px; }
+.pharmacy-assistant form { display: flex; flex-direction: column; gap: 15px; }
+.pharmacy-assistant textarea { padding: 12px; font-size: 1em; border: 2px solid #ddd; border-radius: 8px; font-family: inherit; resize: vertical; }
+.pharmacy-assistant textarea:focus { outline: none; border-color: #667eea; box-shadow: 0 0 5px rgba(102, 126, 234, 0.3); }
+.pharmacy-assistant button { padding: 12px 20px; background: #667eea; color: white; border: none; border-radius: 8px; font-size: 1em; cursor: pointer; transition: background 0.3s; font-weight: bold; }
+.pharmacy-assistant button:hover:not(:disabled) { background: #764ba2; }
+.pharmacy-assistant button:disabled { opacity: 0.6; cursor: not-allowed; }
+.error { color: #d32f2f; padding: 12px; background: #ffebee; border-radius: 8px; margin-top: 15px; }
+.answer { background: #f5f5f5; padding: 20px; border-radius: 8px; margin-top: 20px; border-left: 4px solid #667eea; }
+.answer h3 { color: #667eea; margin-top: 0; }
+.answer p { color: #333; line-height: 1.6; }
