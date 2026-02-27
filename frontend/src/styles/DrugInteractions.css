@@ -1,0 +1,31 @@
+.drug-interaction {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.drug-interaction h1 {
+  color: #2c3e50;
+  font-size: 24px;
+}
+
+.drug-interaction p {
+  font-size: 16px;
+  color: #34495e;
+}
+
+.drug-interaction .interaction-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.drug-interaction .interaction-list li {
+  background-color: #ecf0f1;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.drug-interaction .warning {
+  color: #e74c3c;
+  font-weight: bold;
+}
