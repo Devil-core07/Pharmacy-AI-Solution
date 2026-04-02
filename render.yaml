@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: pharmacy-ai-backend
+    runtime: node
+    plan: free
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: "3000"
+      - key: OPENAI_API_KEY
+        generateValue: true
+      - key: DATABASE_URL
+        generateValue: true
+      - key: FRONTEND_URL
+        generateValue: true
+      - key: API_TIMEOUT
+        value: "30000"
+
+databases:
+  - name: pharmacy-db
+    plan: free
+    mongoDBVersion: "5.0"
